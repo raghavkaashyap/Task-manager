@@ -184,11 +184,10 @@ def table_create_and_hide(button):
 
 def table_create():
     global m
-    # global all_details
     global weekly_allocated_hrs
     global days_of_the_week
 
-    image_directory = 'C:\\Users\\ragha\\OneDrive\\Desktop\\RAGHAV\\Grade 12\\Python\\Images\\'
+    image_directory = '.\\Images\\' # Images in the image folder
     img10 = Image.open(image_directory + 'day.png')
     img20 = Image.open(image_directory + 'day1.jpg')
     img30 = Image.open(image_directory + 'day2.png')
