@@ -363,7 +363,7 @@ def send_mail():
     s = smtplib.SMTP('smtp.gmail.com', 587)  # 587 is the connection port socket. Establishing window
     s.starttls()  # for security purposes
     sender_id = 'task1manager1@gmail.com'
-    sender_password = 'lufwenzvsveuykyn'
+    sender_password = '***'
     x = True  # conditional variable x
     while x:
         try:
@@ -407,7 +407,7 @@ def generate_days_of_the_week_list():
 def build_empty_weekly_allocation():
     for day in days_of_the_week:
         weekly_allocated_hrs[day] = {}
-    print(weekly_allocated_hrs)
+    #print(weekly_allocated_hrs)
 
 
 if __name__ == '__main__':
