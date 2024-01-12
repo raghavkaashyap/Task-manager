@@ -118,7 +118,7 @@ def store_task_details(entries):
                 deadline = text
                 allocation = allot_time(duration, deadline)
                 update_weekly_allocation(task_name, allocation)
-                print(weekly_allocated_hrs)
+                #print(weekly_allocated_hrs)
 
             task_file.write('{},'.format(text))
             task_file.flush()  # write the task details to the task_file
@@ -239,12 +239,12 @@ def table_create():
     img07 = img07.resize((schedule_cell_width, schedule_cell_height), Image.Resampling.LANCZOS)
 
     file = open('C:\Windows\Fonts\LCALLIG.TTF','rb') #when running on windows
-    #file = open(image_directory + 'lucida_calligraphy_italic.ttf', 'rb') #download lucida_calligraphy_italic.ttf before running on macOS
+    #file = open(file_directory + 'lucida_calligraphy_italic.ttf', 'rb') #download lucida_calligraphy_italic.ttf before running on macOS
     fnt = BytesIO(file.read())
     textfont = ImageFont.truetype(fnt, 15)
-
+    #file_directory = ''
     file2 = open('C:\Windows\Fonts\BASKVILL.TTF','rb') #when running on windows
-   #file2 = open(image_directory + 'BASKE1.ttf', 'rb') #download BASKE1.ttf before running on macOS
+   #file2 = open(file_directory + 'BASKE1.ttf', 'rb') #download BASKE1.ttf before running on macOS
     fnt2 = BytesIO(file2.read())
     textfont2 = ImageFont.truetype(fnt2, 15)
 
