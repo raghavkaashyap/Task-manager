@@ -8,4 +8,4 @@ LIMITATIONS:
 3) The source code has been extensively tested on Windows, but not on macOS or other platforms.
 
 ADDITIONAL NOTES:
-1) Fonts used in the source code (lines 242 and 247) are native Windows fonts.
+1) Fonts used in the source code (lines 241 and 246) are native Windows fonts.
