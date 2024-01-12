@@ -8,4 +8,4 @@ LIMITATIONS:
 3) The source code has been extensively tested on Windows, but not on macOS or other platforms.
 
 ADDITIONAL NOTES:
-1) Fonts used in the source code (lines 241 and 246) are native Windows fonts. The source code may be used on other platforms after downloading lucida_calligraphy_italic.ttf and BASKE1.ttf, commenting out lines 241 and 246, and uncommenting lines 242 and 247. Bear in mind that when these files are downloaded, the user must store the file path in a string and update lines 242 and 247 accordingly. 
+1) Fonts used in the source code (lines 241 and 246) are native Windows fonts. The source code may be used on other platforms after downloading lucida_calligraphy_italic.ttf and BASKE1.ttf, commenting out lines 241 and 246, and uncommenting lines 242, 245, and 247. Bear in mind that when these files are downloaded, the user must store the file path in a string (file_path: line 245) and update lines 242 and 247 accordingly. 
