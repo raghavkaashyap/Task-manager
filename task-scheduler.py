@@ -238,13 +238,13 @@ def table_create():
     img06 = img06.resize((schedule_cell_width, schedule_cell_height), Image.Resampling.LANCZOS)
     img07 = img07.resize((schedule_cell_width, schedule_cell_height), Image.Resampling.LANCZOS)
 
-    file = open('C:\Windows\Fonts\LCALLIG.TTF','rb')
-    #file = open(image_directory + 'lucida_calligraphy_italic.ttf', 'rb')
+    file = open('C:\Windows\Fonts\LCALLIG.TTF','rb') #when running on windows
+    #file = open(image_directory + 'lucida_calligraphy_italic.ttf', 'rb') #download lucida_calligraphy_italic.ttf before running on macOS
     fnt = BytesIO(file.read())
     textfont = ImageFont.truetype(fnt, 15)
 
-    file2 = open('C:\Windows\Fonts\BASKVILL.TTF','rb')
-   #file2 = open(image_directory + 'BASKE1.ttf', 'rb')
+    file2 = open('C:\Windows\Fonts\BASKVILL.TTF','rb') #when running on windows
+   #file2 = open(image_directory + 'BASKE1.ttf', 'rb') #download BASKE1.ttf before running on macOS
     fnt2 = BytesIO(file2.read())
     textfont2 = ImageFont.truetype(fnt2, 15)
 
