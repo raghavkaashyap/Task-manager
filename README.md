@@ -1,6 +1,6 @@
 Python Task Manager!
 
-This project is helpful to anybody who has many things to keep track of and do over the week. The goal of this program is to help users organize their work and manage their time better by giving them a clear vision of how their week is supposed to go. The user will input task details like the name of the task, duration (approximate time, in hours, it should take the user to complete the task), and the deadline for completing the task into the program and will receive a schedule (in tabular format) for the week. The schedule contains the duration and time for which a particular task can be done everyday of the week so as to finish it before the deadline. The user can submit as many tasks as they please. The program then emails the user a reminder to complete their tasks. 
+This project is a task management tool designed to help users organize their weekly schedules. Built using Python and the Tkinter library for the GUI, the program allows users to input task details such as the task name, duration (in hours), and deadline. The program then generates a schedule in a tabular format, showing the time allocated for each task throughout the week to ensure timely completion. Additionally, the program can send email reminders to users about their upcoming tasks.
 
 LIMITATIONS: 
 1) The deadline entered should preferably be within one week from the current date.
